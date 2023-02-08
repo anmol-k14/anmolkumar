@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button{
+    border: none;
+    background:  #0F85FF;
+    padding: 12px 33px;
+    border-radius: 30px;
+    color: white ;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.myimage{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myimage img{
+    height: 400px;
+    width: auto;
+    border-radius: 50%;
+   
+}
